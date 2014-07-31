@@ -1,0 +1,162 @@
+* { margin: 0; padding: 0; }
+html, body { height: 100%; }
+
+img
+{
+	border: 0px;
+}
+
+a
+{
+	color: black;
+	text-decoration:none;
+}
+
+a:hover
+{
+	color:black;
+	text-decoration:underline;
+}
+
+a.linkhomepage
+{
+	display:block;
+	font-weight:bold;
+	color:#FFFFFF;
+	background-color:#3333FF;
+	width:120px;
+	text-align:center;
+	padding:4px;
+	text-decoration:none;
+	margin: auto;
+}
+
+caption
+{
+	font-size: 1.8em;
+	font-family: Verdana;
+	color: gray;
+	padding-bottom: 10px;
+}
+
+#container
+{
+	min-height:100%;
+	height:auto !important;
+	height:100%;
+	position:relative;
+	margin:0 auto -4em;
+}
+#header
+{
+	margin: 0;
+	padding: 15px 60px;
+}
+
+#header-wrapper 
+{
+	margin: 0;
+	padding: 0;
+	background: trasparent url(XP-ICANDY-UPDATE FLOPPY DRIVE.png) no-repeat 0px 0px;
+}
+	
+#content
+{
+	text-align:center;
+	padding:10px;
+	padding-bottom:90px; /* Height of the footer */
+	margin:auto;
+}
+ 
+#centermenu
+{
+	border:5px solid gray;
+	margin:auto;
+	padding:10px;
+	width:220px;
+	text-align:center;
+}
+
+#footer
+{	
+	position:absolute;
+	bottom:0;
+	width:100%;
+	height:3em;   /* Height of the footer */
+	text-align:center;
+	font-size:0.8em;
+	font-style:italic;
+}
+
+.webfax
+{
+	padding: 0px;
+	text-align: center;
+	border: 0px;
+}
+
+.webfax png
+{
+	float: center;
+	padding: 0px 10px 0px 0px;
+}
+
+.showtable
+{
+	border: 1px solid black;
+	padding: 10px;
+	margin: auto;
+	background: #008bff;
+}
+
+.showtable th
+{
+	border: 2px solid #008bff;
+	padding: 5px;
+}
+
+.showtable td
+{
+	border: 1px solid black;
+	padding: 8px;
+	background-color: white;
+}
+
+.pagination, .pagination a
+{
+	margin-top: 10px;
+	font-family: Verdana;
+	font-size: 1.1em;
+	color: #008bff;
+}
+
+.leftalign
+{
+	text-align:left;
+}
+
+#sendfax, #update, #adddocument
+{
+	background-color:#008bff;
+	padding: 5px 10px;
+	color: white;
+}
+
+.instruction
+{
+	margin-top:10px;
+	font-family: Verdana;
+	font-size: 0.9em;
+	color: #008bff;
+}
+
+.centeralign
+{
+	text-align:center;
+}
+
+.newaccount
+{
+	background-color:#edffc6;
+}
+
